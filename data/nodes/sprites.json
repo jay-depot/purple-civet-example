@@ -1,0 +1,14 @@
+{
+  "text": "<p>This node has a sprite defined.</p>",
+  "sprites":
+  [
+    {
+      "image": "assets/sprites/sample-sprite.png",
+      "position": {
+        "left": "55%",
+        "bottom": "0"
+      }
+    }
+  ],
+  "next": "menu.json"
+}

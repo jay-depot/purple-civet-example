@@ -43,13 +43,31 @@ body {
   background-size: cover;
 }
 
-.sprite-field {
+.sprite-field-wrapper {
+  position: absolute;
   height: 100%;
   width: 100%;
-  position: absolute;
   top: 0;
   left: 0;
   z-index: 2;
+}
+
+.sprite-field {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.sprite-container {
+  position: absolute;
+  max-width: 30%;
+  max-height: 100%;
+}
+
+.sprite-container img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
 }
 
 .log-wrap {

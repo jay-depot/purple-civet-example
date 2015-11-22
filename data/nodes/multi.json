@@ -8,6 +8,6 @@
       "<p>When a multi_text node runs out of lines, it traverses to the next node.</p>
        <p><small>You can also advance to the next step by hitting space.</small></p>",
     ],
-    "next": "menu.json"
+    "next": "sprites.json"
   }
 }
