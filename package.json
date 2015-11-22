@@ -12,7 +12,7 @@
     "toolbar": false
   },
   "author": "",
-  "license": "BSD-2-Clause",
+  "license": "MIT",
   "dependencies": {
     "jquery": "~2.1.4"
   }
