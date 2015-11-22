@@ -10,7 +10,15 @@ $('document').ready(function() {
     game.graph.backtrack();
     return false;
   });
+
+  $('body').keydown(function(e) {
+    //ctrl-shit-D to open dev tools
+    if (e.keyCode === 68 && e.ctrlKey) {
+      require('nw.gui').Window.get().showDevTools()
+    }
+  });
 });
+
 
 game.loadNodes(path.join(path.dirname(global.module.filename), 'data', 'nodes'), function() {
   game.state.set('log', 'Loaded');

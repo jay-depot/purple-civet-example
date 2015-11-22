@@ -9,7 +9,7 @@
   },
   "window": {
     "title": "Purple Civet",
-    "toolbar": true
+    "toolbar": false
   },
   "author": "",
   "license": "BSD-2-Clause",
