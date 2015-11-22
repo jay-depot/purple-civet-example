@@ -1,0 +1,9 @@
+{
+  "comment": "Example timed node.",
+  "text": "<p>This is a timer node. It advances automatically after a set time.</p>
+           <p><small>Also notice how the background doesn't go away, even though we didn't specify one in this node. ;-)</small></p>",
+  "timer": {
+    "next": "title.json",
+    "after": 5000
+  }
+}

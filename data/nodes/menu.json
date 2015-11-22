@@ -1,0 +1,13 @@
+{
+  "text": "<p>This is a menu node</p>",
+  "menu": [
+    {
+      "text": "Start over",
+      "next": "start.json"
+    },
+    {
+      "text": "Go to second node",
+      "next": "second.json"
+    },
+  ]
+}

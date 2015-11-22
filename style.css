@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  margin-top: -2em;
+  z-index: 100;
+  text-align: center;
+  width: 100%;
+  color: #aaaaaa;
+  text-shadow: #000 0px 3px 30px;
+  font-size: 40px;
+  line-height: 100px;
+}
+
+.background-wrap {
+  background: #000000;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.background{
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.sprite-field {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.log-wrap {
+  padding: .5em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+}
+
+.log {
+  padding: .5em;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.scene-menu {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.scene-menu ul {
+  margin: 0 auto;
+  list-style: none;
+  padding: 20px;
+  width: 30%;
+  border: 1px solid #ffffff;
+  background: rgba(0,0,0,0.5);
+}
+
+.scene-menu ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.scene-menu ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  color: #ffffff;
+}
+
+.scene-menu ul li a:hover,
+.scene-menu ul li a:focus {
+  background: #ffffff;
+  color: #000000;
+}
+
+.controls {
+  position: absolute;
+  z-index: 20;
+  right: 1em;
+  top: 0.25em;
+}
+
+.controls a {
+  text-decoration: none;
+  color: #aaaaaa;
+  display: inline-block;
+  padding: 0 0.5em;
+}
+
+.controls a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}

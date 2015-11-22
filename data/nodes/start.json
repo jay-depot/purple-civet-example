@@ -1,0 +1,7 @@
+{
+  "comment": "Example start node.",
+  "text": "<p>Welcome</p>",
+  "background": "assets/backgrounds/main-menu.jpg",
+  "title": "",
+  "next": "second.json"
+}

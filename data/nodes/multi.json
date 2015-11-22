@@ -1,0 +1,13 @@
+{
+  "comment": "Multi-text example",
+  "multi_text": {
+    "steps": [
+      "<p>This is a multi_text node.</p><p><small>Click anywhere :-D</small></p>",
+      "<p>We're still on the same node.</p><p><small>Cool huh?</small></p>",
+      "<p>These are useful for narration.</p>",
+      "<p>When a multi_text node runs out of lines, it traverses to the next node.</p>
+       <p><small>You can also advance to the next step by hitting space.</small></p>",
+    ],
+    "next": "menu.json"
+  }
+}
