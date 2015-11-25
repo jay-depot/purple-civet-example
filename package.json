@@ -14,6 +14,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "nw": "^0.12.0",
     "jquery": "~2.1.4"
   }
 }
